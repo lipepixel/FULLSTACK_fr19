@@ -1,17 +1,37 @@
-p{
-    color:red;
-    font-size: 13pt;
-}
 .menu{
     color:blue;
     font-size: 15pt;
-}
-.azul{
-    color:blue;
-}
-.vermelho{
+}   
+.menu:hover{
     color:red;
+    font-size: 20pt;
 }
-.amerelo{
-    color:yellow;
+
+<!--CORES-->
+.azul {color:blue;}
+.vermelho {color:red;}
+.amarelo {color:yellow;}
+.verde {color:green;}
+
+<!--TAMANHOS-->
+.tam16 {font-size:16pt;}        
+.tam26 {font-size:26pt;}
+.tam36 {font-size:36pt;}
+.tam46 {font-size:46pt;}
+
+
+<!--ID-->
+#p_amarelo{background-color: darkblue;}
+
+#p_amarelo:hover{
+    color: blue;
+}
+
+div a{
+    text-decoration: none;
+}
+
+
+div a:visited{
+    color: red;
 }
