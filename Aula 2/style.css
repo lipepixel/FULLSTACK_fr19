@@ -1,4 +1,17 @@
 p{
     color:red;
-    font-size: 18pt;
+    font-size: 13pt;
+}
+.menu{
+    color:blue;
+    font-size: 15pt;
+}
+.azul{
+    color:blue;
+}
+.vermelho{
+    color:red;
+}
+.amerelo{
+    color:yellow;
 }
