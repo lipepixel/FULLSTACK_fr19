@@ -1,14 +1,4 @@
-<style>
-            h1{
-                text-align: center;
-            }
-            p{
-                color: red;
-            }
-            h1{
-                background-color: green;
-            }
-            p{
-                background-color: yellow;
-            }
-        </style>
+p{
+    color:red;
+    font-size: 18pt;
+}
