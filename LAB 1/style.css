@@ -1,42 +1,40 @@
 
-h1{
-text-align: center;
-}
-h1{
-background-color: rgb(92, 18, 110);
-}
-h1{
-color: white;
-}
- p{
-background-color: rgb(92, 18, 110);;
- }
-
- <!--Links--> 
-
 .menu{
     color:blue;
-    font-size: 15pt;
+    font-size: 16pt;
 }   
 .menu:hover{
     color:red;
     font-size: 20pt;
 }
 
-<!--CORES-->
+h1, h2, h3, h4, h5, h6{
+text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+background-color: rgb(92, 18, 110);
+}
+h1, h2, h3, h4, h5, h6{
+color: white;
+}
+ p, li{
+color: white;   
+font-size: 14pt;    
+background-color: rgb(92, 18, 110);;
+ }
+
+
 .azul {color:blue;}
 .vermelho {color:red;}
 .amarelo {color:yellow;}
 .verde {color:green;}
 
-<!--TAMANHOS-->
 .tam16 {font-size:16pt;}        
 .tam26 {font-size:26pt;}
 .tam36 {font-size:36pt;}
 .tam46 {font-size:46pt;}
 
 
-<!--ID-->
 #p_amarelo{background-color: darkblue;}
 
 #p_amarelo:hover{
