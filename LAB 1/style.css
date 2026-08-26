@@ -9,12 +9,9 @@
 }
 
 h1, h2, h3, h4, h5, h6{
+font-size: 30pt;
 text-align: center;
-}
-h1, h2, h3, h4, h5, h6{
 background-color: rgb(92, 18, 110);
-}
-h1, h2, h3, h4, h5, h6{
 color: white;
 }
  p, li{
@@ -52,4 +49,10 @@ div a:visited{
 
 body{
     background-color: rgb(212, 201, 228);
+}
+
+img {
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
 }
