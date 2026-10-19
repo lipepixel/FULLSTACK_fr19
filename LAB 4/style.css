@@ -1,0 +1,53 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+#jogo {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    font-size: 18px;
+    width: 100px;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#mensagem {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#resultado {
+    width: 200px;
+    padding: 15px;
+    margin-top: 15px;
+    text-align: center;
+    border-radius: 8px;
+    color: white;
+}
+
+#tentativas {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.tentaivas {
+    width: 250px;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    color: white;
+}

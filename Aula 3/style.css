@@ -1,0 +1,42 @@
+div{background: linear-gradient(135deg, aqua, black);
+    margin: 20px;
+text-align: center;}
+
+h1, h2{
+text-align: center;
+padding: 10px;
+display: flex;
+justify-content: center;
+align-items: center;}
+
+.bg_azul {
+    background-color: aqua}
+
+.bg_vermelho {background-color: red}
+
+.bg_verde {background-color: green;}
+
+.bg_amarelo{background-color: yellow;}
+
+.solida{ border: 5px, solid, grey;}
+
+.pontilhada {border: 5px, dotted, grey;}
+
+.tracejada {border: 5px, dashed, grey}
+
+.dupla {border: 5px, double, grey;}
+
+.curva { border: 5px, solid, grey; border-radius: 10px;}
+
+p, a{background:aqua;
+font-size: 25px;
+border-radius: 10px}
+
+#p1{display: inline;}
+#a1{display: inline;}
+
+#d1{position:absolute; top: 50px; left: 5px; right: 20px;}
+
+#d2{position: relative; top: 50px; left: 20px;}
+
+#d3{position: fixed; bottom: 0px; z-index: 3;}
