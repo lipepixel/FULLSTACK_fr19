@@ -1,0 +1,35 @@
+.menu{
+    color:blue;
+    font-size: 30pt;
+}   
+.menu:hover{
+    color:red;
+    font-size: 20pt;
+}
+
+.azul {color:blue;}
+.vermelho {color:red;}
+.amarelo {color:yellow;}
+.verde {color:green;}
+
+
+.tam16 {font-size:16pt;}        
+.tam26 {font-size:26pt;}
+.tam36 {font-size:36pt;}
+.tam46 {font-size:46pt;}
+
+
+#p_amarelo{background-color: darkblue;}
+
+#p_amarelo:hover{
+    color: yellow;
+}
+
+div a{
+    text-decoration: none;
+}
+
+
+div a:visited{
+    color: red;
+}

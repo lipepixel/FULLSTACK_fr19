@@ -1,0 +1,58 @@
+
+.menu{
+    color:blue;
+    font-size: 16pt;
+}   
+.menu:hover{
+    color:red;
+    font-size: 20pt;
+}
+
+h1, h2, h3, h4, h5, h6{
+font-size: 30pt;
+text-align: center;
+background-color: rgb(92, 18, 110);
+color: white;
+}
+ p, li{
+color: white;   
+font-size: 14pt;    
+background-color: rgb(92, 18, 110);;
+ }
+
+
+.azul {color:blue;}
+.vermelho {color:red;}
+.amarelo {color:yellow;}
+.verde {color:green;}
+
+.tam16 {font-size:16pt;}        
+.tam26 {font-size:26pt;}
+.tam36 {font-size:36pt;}
+.tam46 {font-size:46pt;}
+
+
+#p_amarelo{background-color: darkblue;}
+
+#p_amarelo:hover{
+    color: blue;
+}
+
+div a{
+    text-decoration: none;
+}
+
+
+div a:visited{
+    color: red;
+}
+
+body{
+    background-color: rgb(212, 201, 228);
+}
+
+img {
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}

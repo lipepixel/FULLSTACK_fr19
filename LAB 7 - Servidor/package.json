@@ -1,0 +1,15 @@
+{
+  "name": "lab-7-servidor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Servidor Express para as p\u00e1ginas do site na porta 80",
+  "scripts": {
+    "start": "node Servidor.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,60 @@
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: dodgerblue;
+    padding: 5px;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+
+.container div {
+    background-color: rgba(199, 201, 202, 0.966);
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
+
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    background-color: rgb(203, 203, 207);
+    border: 3px solid dodgerblue;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 400px;
+    margin: auto;
+
+}
+
+.tank {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 200px 200px;
+    background-color: rgb(167, 240, 160);
+    padding: 5px;
+    gap: 5px;
+    border-radius: 5px;
+}
+
+.tank div {
+    background-color: rgba(236, 225, 176, 0.966);
+    color: black;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+img {
+    width: 130px;
+    height: 130px;
+}
