@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 20px 12px;
+    background-color: lightblue;
+    color: #315f73;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+main {
+    max-width: 440px;
+    margin: 25px auto;
+    padding: 25px;
+    border: 2px solid #8fafc0;
+    border-radius: 10px;
+    background-color: #f1f8fa;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+p {
+    line-height: 1.6;
+    overflow-wrap: anywhere;
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #8fafc0;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    margin-top: 22px;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #315f73;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #244858;
+}
+
+a {
+    color: #244858;
+}
+
+table {
+    width: 100%;
+    margin: 25px auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #8fafc0;
+}
+
+th {
+    background-color: #e0eef4;
+}
+
+.mensagem {
+    padding: 15px;
+    border-radius: 6px;
+}
+
+.sucesso {
+    background-color: #d9efdf;
+    color: #205d30;
+}
+
+.erro {
+    background-color: #fff0d8;
+    color: #754512;
+}

@@ -1,0 +1,17 @@
+{
+  "name": "lab-8-get-post-template",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Cadastro e login com Express e EJS",
+  "scripts": {
+    "start": "node Servidor.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "ejs": "^3.1.10"
+  }
+}
