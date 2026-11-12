@@ -1,0 +1,43 @@
+body {
+    background-color: lightgray;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 20px 10px;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+canvas {
+    background-color: white;
+    border: 1px solid black;
+    display: block;
+    margin: 15px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+table {
+    margin: 25px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid gray;
+    padding: 12px 20px;
+}
+
+th {
+    background-color: lightblue;
+}
+
+a {
+    color: darkblue;
+}
