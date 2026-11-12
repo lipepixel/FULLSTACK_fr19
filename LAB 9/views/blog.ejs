@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Blog | Meu blog</title><link rel="stylesheet" href="/style.css"></head>
+<body><main class="container">
+<nav><a class="brand" href="/blog">Meu blog<span> / posts</span></a><a href="/Projects.html">Projetos</a></nav>
+<header class="hero"><div><p class="eyebrow">LAB 9</p><h1>Meu blog.</h1><p>Veja os posts cadastrados ou publique um novo.</p></div><a class="button" href="/cadastrar_post.html">+ Criar novo post</a></header>
+<div class="section-title"><h2>Publicações</h2><span><%= posts.length %> <%= posts.length === 1 ? 'post' : 'posts' %></span></div>
+<% if (posts.length === 0) { %>
+<section class="panel empty"><span class="empty-icon" aria-hidden="true">✎</span><h2>Nenhum post cadastrado.</h2><p>Clique abaixo para criar o primeiro post.</p><a class="button" href="/cadastrar_post.html">Criar primeiro post →</a></section>
+<% } %>
+<section class="posts" aria-label="Posts do blog">
+<% posts.forEach(function(post) { %>
+<article class="panel post"><time datetime="<%= post.criado_em %>"><%= new Date(post.criado_em).toLocaleDateString('pt-BR', { timeZone: 'America/Sao_Paulo', day: '2-digit', month: 'long', year: 'numeric' }) %></time><h2><%= post.titulo %></h2><p class="summary"><%= post.resumo %></p><div class="content"><%= post.conteudo %></div></article>
+<% }); %>
+</section><footer>Feito com Node.js, EJS e SQLite.</footer>
+</main></body></html>

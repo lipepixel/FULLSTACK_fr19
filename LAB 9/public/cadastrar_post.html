@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Novo post | Blog</title><link rel="stylesheet" href="/style.css"></head>
+<body><main class="container narrow">
+<nav><a class="brand" href="/blog">Meu blog</a><a href="/blog">← Voltar ao blog</a></nav>
+<header><p class="eyebrow">LAB 9</p><h1>Cadastrar post</h1><p>Preencha os campos abaixo para publicar no blog.</p></header>
+<form class="panel" action="/posts" method="POST">
+<label for="titulo">Título</label><input id="titulo" name="titulo" type="text" maxlength="150" placeholder="Dê um título ao seu post" required>
+<label for="resumo">Resumo</label><textarea id="resumo" name="resumo" rows="3" maxlength="500" placeholder="Apresente sua ideia em poucas palavras" required></textarea>
+<label for="conteudo">Conteúdo</label><textarea id="conteudo" name="conteudo" rows="10" maxlength="20000" placeholder="Escreva o conteúdo completo aqui…" required></textarea>
+<div class="actions"><a href="/blog">Cancelar</a><button type="submit">Publicar post →</button></div>
+</form><footer>Blog — Cadastro de posts</footer>
+</main></body></html>
