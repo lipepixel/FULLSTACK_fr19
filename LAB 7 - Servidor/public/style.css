@@ -418,17 +418,111 @@ table a:hover {
 }
 
 /* ===== TABELA DOS LABS ===== */
+.area-labs {
+    max-width: 900px;
+    margin: 40px auto;
+}
+
+.intro-labs {
+    background: none;
+    color: #315f73;
+    text-align: center;
+}
+
 .tabela-labs {
     width: 95%;
     max-width: 700px;
-    margin: 20px auto;
-    border-collapse: collapse;
+    margin: 25px auto;
+    border-collapse: separate;
+    border-spacing: 0 8px;
 }
 
-.tabela-labs th, .tabela-labs td {
-    border: 1px solid rgb(140, 180, 200);
-    padding: 10px;
+.tabela-labs th {
+    padding: 14px 10px;
+    background-color: #8fafc0;
+    font-size: 18px;
+}
+
+.tabela-labs td {
+    padding: 14px 10px;
+    background-color: #f1f8fa;
+    color: #315f73;
+    border-top: 1px solid #c4dce6;
+    border-bottom: 1px solid #c4dce6;
     font-size: 16px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.tabela-labs th:first-child, .tabela-labs td:first-child {
+    border-radius: 10px 0 0 10px;
+}
+
+.tabela-labs th:last-child, .tabela-labs td:last-child {
+    border-radius: 0 10px 10px 0;
+}
+
+.tabela-labs td:first-child {
+    border-left: 4px solid #8fc4d9;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.tabela-labs td:last-child {
+    border-right: 1px solid #c4dce6;
+}
+
+/* Destaca a linha inteira ao passar o mouse ou selecionar o link pelo teclado. */
+.tabela-labs tr:hover td, .tabela-labs tr:focus-within td {
+    background-color: #d5edf4;
+}
+
+.tabela-labs tr:hover td:first-child, .tabela-labs tr:focus-within td:first-child {
+    background-color: #6fa8bd;
+    color: white;
+}
+
+.tabela-labs a {
+    display: inline-block;
+    padding: 9px 12px;
+    margin: 0;
+    border-radius: 7px;
+    background-color: #315f73;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    transition: background-color 0.2s;
+}
+
+.tabela-labs a:hover {
+    background-color: #244858;
+    color: white;
+}
+
+.tabela-labs a:focus-visible {
+    outline: 3px solid #315f73;
+    outline-offset: 3px;
+}
+
+@media screen and (max-width: 600px) {
+    .tabela-labs {
+        width: 100%;
+    }
+
+    .tabela-labs th, .tabela-labs td {
+        padding: 10px 6px;
+        font-size: 14px;
+    }
+
+    .tabela-labs a {
+        padding: 9px 7px;
+        font-size: 14px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .tabela-labs td, .tabela-labs a {
+        transition: none;
+    }
 }
 
 .aviso-labs {
