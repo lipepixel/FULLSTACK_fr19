@@ -1,0 +1,45 @@
+body {
+    margin: 20px 10px;
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    color: #315f73;
+    text-align: center;
+}
+
+h1 {
+    font-size: 26px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+canvas {
+    box-sizing: border-box;
+    display: block;
+    margin: 25px auto;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #315f73;
+    background-color: white;
+    touch-action: none;
+}
+
+table {
+    margin: 25px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #8fafc0;
+    padding: 12px 20px;
+}
+
+th {
+    background-color: #e0eef4;
+}
+
+a {
+    color: #244858;
+}
