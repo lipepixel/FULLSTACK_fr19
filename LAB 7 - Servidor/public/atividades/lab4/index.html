@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
     <meta charset="UTF-8">
-    <title>Adivinhação</title>
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo da Adivinhação</title>
+    <link rel="stylesheet" href="style.css?v=palpites-1">
 </head>
-
 <body>
-
     <main id="jogo">
         <h1>Jogo da Adivinhação</h1>
+        <p>Pensei em um número secreto entre <strong>0 e 99</strong>.<br>
+            Sua missão é descobrir qual é!</p>
+        <p>A cada palpite, vou dizer se o número secreto é maior ou menor.</p>
 
-        <p>Digite um número entre 0 e 99:</p>
+        <form onsubmit="verificar(); return false;">
+            <label for="numero">Qual é o seu palpite?</label>
+            <div class="palpite">
+                <input type="number" id="numero" min="0" max="99" step="1" required>
+                <button type="submit" id="adivinhar">Adivinhar</button>
+            </div>
+        </form>
 
-        <input type="number" id="numero">
+        <p id="resultado" aria-live="polite">Digite um número para começar :)</p>
 
-        <button onclick="verificar()">Adivinhar</button>
+        <h2>Seus palpites</h2>
+        <p id="contador">Tentativas: 0</p>
+        <ol id="tentativas"></ol>
 
-        <p id="resultado"></p>
-
-        <div id="tentativas"></div>
-
+        <button type="button" id="reiniciar" onclick="novoJogo()">Jogar de novo</button>
     </main>
-
-
-    <script src="guess.js"></script>
+    <script src="guess.js?v=palpites-1"></script>
 </body>
-
 </html>

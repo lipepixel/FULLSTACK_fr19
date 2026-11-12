@@ -2,52 +2,110 @@ body {
     background-color: lightblue;
     font-family: Arial, sans-serif;
     margin: 0;
+    padding: 30px 15px;
 }
 
 #jogo {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 25px;
+    background-color: #f1f8fa;
+    border: 2px solid #8fafc0;
+    border-radius: 12px;
     text-align: center;
+    color: #315f73;
 }
 
-input {
-    padding: 10px;
-    font-size: 18px;
-    width: 100px;
+h1 {
+    font-size: 28px;
 }
 
-button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    cursor: pointer;
-}
-
-#mensagem {
+h2 {
+    margin-top: 28px;
     font-size: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+label {
+    display: block;
+    margin-top: 25px;
     font-weight: bold;
 }
 
-#resultado {
-    width: 200px;
-    padding: 15px;
-    margin-top: 15px;
+.palpite {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 12px;
+}
+
+input {
+    width: 85px;
+    padding: 10px;
+    border: 2px solid #8fafc0;
+    border-radius: 6px;
+    font-size: 20px;
     text-align: center;
-    border-radius: 8px;
+}
+
+button {
+    padding: 12px 16px;
+    border: 1px solid #315f73;
+    border-radius: 6px;
+    background-color: #315f73;
     color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #244858;
+}
+
+button:disabled {
+    background-color: #607d8b;
+    cursor: default;
+}
+
+#resultado {
+    padding: 15px;
+    margin-top: 20px;
+    background-color: #e0eef4;
+    border-radius: 8px;
 }
 
 #tentativas {
-    margin-top: 20px;
-    font-size: 18px;
+    padding-left: 25px;
+    text-align: left;
 }
 
-.tentaivas {
-    width: 250px;
-    padding: 12px;
-    margin: 8px 0;
-    border-radius: 8px;
-    color: white;
+#tentativas li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    line-height: 1.5;
+}
+
+#resultado.erro, #tentativas .erro {
+    background-color: #fff0d8;
+    color: #754512;
+}
+
+#resultado.acerto, #tentativas .acerto {
+    background-color: #d9efdf;
+    color: #205d30;
+}
+
+#reiniciar {
+    margin-top: 15px;
+    background-color: white;
+    color: #315f73;
+}
+
+#reiniciar:hover {
+    background-color: #e0eef4;
 }
